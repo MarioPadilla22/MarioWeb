@@ -2,15 +2,23 @@
 
 
 
+    
+    @{
+        int tt;
+        int  espbl=Model-1;
+        int filas=0;
+    }
     @for (int i = 0 ; i < Model ; i++)
     {
-         <img  src="~/images/bloque.webp" alt="#">
-    }
-
-    <br/>
-
-
-           
-
+    @for (int x=0; x< espbl-filas ; x++)
+    {
+<img style="width:50px">
+    } 
+    filas++;
+    @for( tt=0 ; tt<filas; tt++)
+    {
+      <img  src="~/images/bloque.webp" alt="#">
+    }<br/>
+    }<br/>
 
 
